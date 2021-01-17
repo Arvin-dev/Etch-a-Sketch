@@ -26,7 +26,7 @@ function populateContainer(ite) {
 }
 
 function colorDiv() {
-    this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+    this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;  
 }
 
 populateContainer(16);
